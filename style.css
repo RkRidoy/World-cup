@@ -56,6 +56,8 @@ h1{
     background-color: red;
     text-decoration: none;
     border-radius: 5px;
+    animation-name: colors;
+    animation-duration: 10s;
     
 }
 
@@ -305,6 +307,7 @@ footer ul li a{
     .footer-list ul li a{
         display: block;
         align-items: center;
+        text-align: center;
     }
  
 
@@ -380,4 +383,10 @@ margin-top: 40px;
 .hide{ display: block;
 margin-top: 100px;}
 }
+
+@keyframes colors {
+    0% {background-color: red;}
+    25% {background-color: yellow;}
+    100%{background-color: blue;}
+  }
 
